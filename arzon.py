@@ -48,6 +48,6 @@ def ll(rootPath):
 						with open(av.group(2) + av.group(3) + '.jpg', mode='wb') as f:
 							f.write(content.read())
 					else:
-						print ret
+						print lists
 
 ll(av_path)
